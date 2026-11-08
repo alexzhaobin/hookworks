@@ -1,0 +1,21 @@
+{
+  "name": "hookworks",
+  "owner": { "name": "Alex Zhao" },
+  "metadata": {
+    "description": "Claude Code mods by Alex Zhao"
+  },
+  "plugins": [
+    {
+      "name": "token-usage-anatomy",
+      "source": {
+        "source": "github",
+        "repo": "alexzhaobin/token-usage-anatomy",
+        "ref": "main"
+      },
+      "description": "Token Usage Anatomy for Claude Code: see how every prompt turns into input, output, cache reads and cache writes",
+      "homepage": "https://github.com/alexzhaobin/token-usage-anatomy",
+      "license": "MIT",
+      "keywords": ["tokens", "usage", "prompt-cache", "cost", "context"]
+    }
+  ]
+}
